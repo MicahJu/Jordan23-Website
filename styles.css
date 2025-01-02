@@ -1,0 +1,465 @@
+img {
+    margin: 50px 30px 30px 30px;
+    cursor: pointer;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+  }
+  
+  body {
+    text-align: center;
+    margin: 20px 20px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px 25px 0px 25px;
+    z-index: 100;
+  }
+  
+  p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    margin-right: 15px;
+    margin-top: 0rem;
+    cursor: pointer;
+  }
+  
+  #Nav-Header {
+    /*text-align: center;*/
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .History {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: black;
+    float: left;
+  }
+  
+  .Information {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: black;
+    float: right;
+  }
+  
+
+
+
+  .AirJordan1 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    background-color: lightgrey;
+  }
+  
+  .AirJordan2 {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+  
+  .AirJordan3 {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+  }
+  
+  .AirJordan4 {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+  }
+  
+  .AirJordan5 {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: -20px;
+  }
+  
+  .AirJordan6 {
+    width: 330px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: -15px;
+  }
+  
+  .AirJordan7 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    top: -55px;
+    z-index: 2;
+  }
+  
+  .AirJordan8 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    z-index: 2;
+  }
+  
+  .AirJordan9 {
+    width: 345px;
+    display: inline-block;
+    position: relative;
+    top: -60px;
+  }
+  
+  .AirJordan10 {
+    width: 355px;
+    display: inline-block;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  .AirJordan11 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  .AirJordan12 {
+    width: 335px;
+    display: inline-block;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  .AirJordan13 {
+    width: 335px;
+    display: inline-block;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  .AirJordan14 {
+    width: 335px;
+    display: inline-block;
+    position: relative;
+    bottom: 130px;
+  }
+  
+  .AirJordan15 {
+    width: 340px;
+    display: inline-block;
+    position: relative;
+    bottom: 130px;
+  }
+  
+  .AirJordan16 {
+    width: 340px;
+    display: inline-block;
+    position: relative;
+    bottom: 140px;
+  }
+  
+  .AirJordan17 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    bottom: 140px;
+  }
+  
+  .AirJordan18 {
+    width: 340px;
+    display: inline-block;
+    position: relative;
+    bottom: 140px;
+  }
+  
+  .AirJordan19 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    bottom: 135px;
+  }
+  
+  .AirJordan20 {
+    width: 345px;
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+  }
+  
+  .AirJordan21 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+  }
+  
+  .AirJordan22 {
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    bottom: 140px;
+  }
+  
+  .AirJordan23 {
+    width: 330px;
+    display: inline-block;
+    position: relative;
+    bottom: 155px;
+  }
+  
+  /* Start of Smaller device layout */
+  @media only screen and (max-width: 700px) {
+     
+
+    nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px 25px 0px 25px;
+    z-index: 100;
+  }
+  
+  p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    margin-right: 15px;
+    margin-top: 0rem;
+    cursor: pointer;
+  }
+  
+  #Nav-Header {
+    /*text-align: center;*/
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .History {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: black;
+    float: left;
+  }
+  
+  .Information {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: black;
+    float: right;
+    margin-right: 15px;;
+  }
+
+
+
+
+    .AirJordan1 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      top: 20px;
+      right: -10px;
+      background-color: lightgrey;
+    }
+  
+    .AirJordan2 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      top: 15px;
+      right: 0px;
+    }
+  
+    .AirJordan3 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      top: 10px;
+      right: 0px;
+    }
+  
+    .AirJordan4 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      right: 0px;
+    }
+  
+    .AirJordan5 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      right: 5px;
+      top: -30px;
+    }
+  
+    .AirJordan6 {
+      width: 320px;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      top: -60px;
+      right: 10px;
+    }
+  
+    .AirJordan7 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      top: -75px;
+      right: 0px;
+      z-index: 2;
+    }
+    
+    .AirJordan8 {
+      width: 310px;
+      display: inline-block;
+      position: relative;
+      top: -80px;
+      right: 5px;
+      z-index: 1;
+    }
+  
+    .AirJordan9 {
+      width: 320px;
+      display: inline-block;
+      position: relative;
+      top: -115px;
+      right: 10px;
+    }
+  
+    .AirJordan10 {
+      width: 330px;
+      display: inline-block;
+      position: relative;
+      bottom: 155px;
+      right: 15px;
+    }
+  
+    .AirJordan11 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      bottom: 140px;
+    }
+  
+    .AirJordan12 {
+      width: 330px;
+      display: inline-block;
+      position: relative;
+      right: 10px;
+      bottom: 130px;
+    }
+  
+    .AirJordan13 {
+      width: 320px;
+      display: inline-block;
+      position: relative;
+      right: 10px;
+      bottom: 150px;
+    }
+  
+    .AirJordan14 {
+      width: 320px;
+      display: inline-block;
+      position: relative;
+      right: 10px;
+      bottom: 150px;
+    }
+  
+    .AirJordan15 {
+      width: 320px;
+      display: inline-block;
+      position: relative;
+      bottom: 105px;
+      right: 10px;
+    }
+  
+    .AirJordan16 {
+      width: 330px;
+      display: inline-block;
+      position: relative;
+      right: 15px;
+      bottom: 120px;
+    }
+  
+    .AirJordan17 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      bottom: 130px;
+    }
+  
+    .AirJordan18 {
+      width: 330px;
+      display: inline-block;
+      position: relative;
+      right: 10px;
+      bottom: 165px;
+    }
+  
+    .AirJordan19 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      right: 5px;
+      bottom: 135px;
+    }
+    
+    .AirJordan20 {
+      width: 330px;
+      display: inline-block;
+      position: relative;
+      right: 20px;
+      bottom: 150px;
+    }
+  
+  
+    .AirJordan21 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      bottom: 130px;
+    }
+  
+    .AirJordan22 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      bottom: 120px;
+    }
+  
+    .AirJordan23 {
+      width: 300px;
+      display: inline-block;
+      position: relative;
+      right: 10px;
+      bottom: 130px;
+    }
+  
+  } 
+  
